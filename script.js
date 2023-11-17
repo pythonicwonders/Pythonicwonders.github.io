@@ -5,7 +5,7 @@ function saveData() {
   const newData = `${name},${nickname}\n`;
 
   // GitHub Gist API to update the CSV file
-  const gistId = '20d13560f02f7a41fe67e298e32d8ea460bb6c59';
+  const gistId = '0c8105ba21f3a578a19305cb37d4d3b3;
   const apiUrl = `https://api.github.com/gists/${gistId}`;
 
   fetch(apiUrl)
